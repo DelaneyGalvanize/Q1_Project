@@ -20,9 +20,14 @@
 
 .coolpic {
   height:200px;
-  width: 70px;
+  width: 50px;
   margin-bottom: 140px;
   margin-top: 190px;
+  display:inline-block;
+}
+
+.col-6 .col-md-4 {
+  position: relative;
 }
 
 .coolsec{
@@ -31,23 +36,18 @@
 }
 #pic7{
   float:left;
-  margin-left: 62px;
+  margin-left: -50px;
 
 }
 
 #pic8 {
   margin-right: 120px;
-  margin-left: 370px;
+  margin-left: 390px;
 }
 #pic9{
-  /*float: right;*/
-  margin-left: 230px;
-}
+  float: left;
+  margin-left: 390px;
 
-
-.message, .name, .number {
-  font-size: 18px;
-  color: white;
 }
 
 .item.active {
@@ -73,7 +73,7 @@ margin: auto;
   /*display: inline-block;*/
   text-align:center;
   height: 100px;
-  width:400px;
+  width:380px;
   /*margin-top: 30px;*/
 }
 .page-header {
@@ -165,8 +165,6 @@ body {
   background-color: white
 }
 
-
-
 .formheader {
   text-align: center;
   margin-top: -150px;
@@ -177,7 +175,10 @@ body {
   background-color: black;
 }
 
-
+.message, .name, .number {
+  font-size: 18px;
+  color: white;
+}
 /*FRONT CSS*/
 body{
 	margin:0;
