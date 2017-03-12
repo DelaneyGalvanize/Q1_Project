@@ -1,7 +1,5 @@
 /*/-------*news page css------*/
 
-
-
 .newspic {
   height: 200px;
   width:200px;
@@ -10,7 +8,6 @@
 }
 
 .description {
-  /*display: inline-block;*/
   margin-top: -140px;
   margin-left: 450px;
   text-align: center;
@@ -179,6 +176,8 @@ body {
   font-size: 18px;
   color: white;
 }
+
+
 /*FRONT CSS*/
 body{
 	margin:0;
